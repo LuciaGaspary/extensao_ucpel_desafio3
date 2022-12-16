@@ -1,0 +1,32 @@
+.bg-navy {
+    background-color: rgb(6, 6, 89);
+}
+
+.imagem1-carrossel {
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 400px;
+}
+
+.imagem2-carrossel {
+    object-fit: cover;
+    object-position: 0 40%;
+    height: 400px;
+}
+
+.imagem3-carrossel {
+    object-fit: cover;
+    object-position: 0 60%;
+    height: 400px;
+}
+
+.texto {
+    text-align: justify;
+    text-indent: 15px;
+    font-family: 'Nunito', sans-serif;;
+}
+
+.card-largura {
+    width: 18rem;
+}
+

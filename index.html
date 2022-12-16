@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athena Tech</title>
+
+    <!-- Meu css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,400&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap responsividade -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-navy fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#">Athena Tech</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Sobre nós</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Serviços</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#"  type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contato</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- Fim NavBar -->
+    </header> 
+
+    <main>
+        <!-- Carrossel -->
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/img1.jpg" class="d-block w-100 imagem1-carrossel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/img2.jpg" class="d-block w-100 imagem2-carrossel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/img3.jpg" class="d-block w-100 imagem3-carrossel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!-- Fim Carrossel -->
+
+        <!-- Sobre nós -->
+        <h1 class="text-center m-5">Athena Tech</h1>
+        <article class="text-center texto">        
+          <p>
+            Somos uma empresa de tecnologia localizada no Parque Una em Pelotas/RS especializada em desenvolvimento de software.
+            Buscamos trabalhar com as mais modernas tecnologias no mercado, sempre com a intenção de entregar o melhor produto
+            possivel ao cliente.
+        </p>
+        <p>
+          Fique por dentro de tudo o que acontece na Athena Tech pelas nossas redes sociais!
+        </p>
+        <section class="text-center m-5">
+          <a href="" target="_blank"><img src="img/logo-facebook.png"></a>
+          <a href="" target="_blank"><img src="img/logo-instagram.png"></a>
+          <a href="" target="_blank"><img src="img/logo-linkedin.png"></a>
+          <a href="" target="_blank"><img src="img/logo-twitter.png"></a>
+        </section>
+        </article>
+        <!-- Fim Sobre nós -->
+
+        <!-- Sobre nós -->
+        <div class="clearfix m-4">
+            <img src="img/img4.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="..." style="--bs-aspect-ratio: 50%;">
+          
+            <h2 class="">Sobre nós</h2>
+            <div  class="texto">
+            <p>
+              A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+            </p>
+          
+            <p>
+              As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+            </p>
+          
+            <p>
+              And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+            </p>
+            </div>
+          </div>     
+        <!-- Fim sobre nós -->
+
+        <!-- Cards Serviços -->
+        <section class="container-fluid bg-light" id="servicos">
+        <div class="row justify-content-center">
+            
+        <article class="card card-largura p-0 m-4 col-12 col-md-4" style="width: 18rem;">
+          <img src="img/img5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Serviço 1</h5>
+            <p class="card-text">Descrição serviço 1</p>
+            <a href="#" class="btn btn-outline-warning">Solicite orçamento</a>
+          </div>
+        </article>
+
+        <article class="card card-largura p-0 m-4 col-12 col-md-4" style="width: 18rem;">
+          <img src="img/img5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Serviço 2</h5>
+            <p class="card-text">Descrição serviço 2</p>
+            <a href="#" class="btn btn-outline-warning">Solicite orçamento</a>
+          </div>
+        </article>
+
+        <article class="card card-largura p-0 m-4 col-12 col-md-4" style="width: 18rem;">
+          <img src="img/img5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Serviço 3</h5>
+            <p class="card-text">Descrição serviço 3</p>
+            <a href="#" class="btn btn-outline-warning">Solicite orçamento</a>
+          </div>
+        </article>
+
+        <article class="card card-largura p-0 m-4 col-12 col-md-4" style="width: 18rem;">
+          <img src="img/img5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Serviço 4</h5>
+            <p class="card-text">Descrição serviço 4</p>
+            <a href="#" class="btn btn-outline-warning">Solicite orçamento</a>
+          </div>
+        </article>
+
+        </div>
+        </section>
+        <!-- Cards Fim serviços -->
+
+ 
+        <!-- Mapa -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3392.1954249771397!2d-52.318725885246714!3d-31.765155420385714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9511b56bcd47e989%3A0xb734c4d179d27955!2sParque%20Una%20Pelotas!5e0!3m2!1spt-BR!2sbr!4v1670612295948!5m2!1spt-BR!2sbr" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Fim mapa -->
+
+        <!-- Modal -->              
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Contato</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Nome</label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="Digite seu nome e sobrenome" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Email</label>
+                    <input type="email" class="form-control" id="recipient-email" placeholder="Digite seu email" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Telefone</label>
+                    <input type="tel" class="form-control" id="recipient-tel" placeholder="(DDD) x xxxx xxxx" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Menssagem:</label>
+                    <textarea class="form-control" id="message-text" placeholder="Digite sua mensagem" required></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Enviar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fim Modal -->
+    </main>
+
+    <footer>
+        <p class="text m-0 text-center bg-navy text-white">&copy; Copyright Athena Tech 2022</p>
+    </footer>
+</body>
+</html>
